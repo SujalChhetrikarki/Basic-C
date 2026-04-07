@@ -1,18 +1,49 @@
 <html>
 <head>
     <title>Sujal</title>
+    <style>
+        table {
+            margin: auto;
+            background-color: lime;
+            padding: 10px;
+        }
+        td {
+            padding: 5px;
+        }    
+    </style>
+    <link rel="stylesheet" href="day2.css">
 </head>
-<body>
-    <table>
-      <tr>
-        <img src="html.jpg" alt="HTML Image"><br>
-        Name:    <input type="text" name="name" placeholder="Enter your name"><br>
-        Address: <input type="text" name="address" placeholder="Enter your address"><br>
-        Email:   <input type="email" name="email" placeholder="Enter your email"><br>
-        Phone:   <input type="tel" name="phone" placeholder="Enter your phone number"><br>
-        Password:<input type="password" name="password" placeholder="Enter your password"><br>
-        <input type="submit" value="Submit">
-      </tr>  
-    </table>
+<body style="background-color:lightblue; text-align:center;">
+    <img src="html.jpg" alt="HTML Image" height="100" width="100"><br><br>
+<h1>Welcome to HTML Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" placeholder="Enter your name" ></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address" placeholder="Enter your address" ></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" placeholder="Enter your email"></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="tel" name="phone" placeholder="Enter your phone number"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" placeholder="Enter your password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
